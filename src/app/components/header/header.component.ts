@@ -36,18 +36,20 @@ export class HeaderComponent implements OnInit {
 
     this.toggleDarkmode(this.darkMode);
 
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-    prefersDark.addEventListener('change', (e) => {
-      const dark = e.matches ? true : false;
+    // const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    // prefersDark.addEventListener('change', (e) => {
+    //   const dark = e.matches ? true : false;
 
-      if (this.darkMode != dark) {
-        this.darkMode = !this.darkMode;
-        this.toggleDarkmode(this.darkMode);
-      }
-    });
+    //   if (this.darkMode != dark) {
+    //     this.darkMode = !this.darkMode;
+    //     this.toggleDarkmode(this.darkMode);
+    //   }
+    // });
   }
 
   toggleDarkmode(enable) {
+    this.darkMode = enable;
+
     document.body.classList.toggle('dark', enable);
   }
 
