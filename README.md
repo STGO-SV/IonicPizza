@@ -23,6 +23,8 @@
 
 O pizzaShop é uma aplicação para web e também um aplicativo móvel pra ambas as plataformas (Android e IOS), que tem como principal função a visualização de diversos tipos de pizzas, sendo possível filtra-las de acordo as opções disponíveis e adiciona-las ao carrinho.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://pizza-shop-flax.vercel.app/)
+
 Este é um projeto desenvolvido para fins de estudos seguindo o ebook [#builtwithionic](https://builtwithionic.com/).
 
 ## 👀 Layout
