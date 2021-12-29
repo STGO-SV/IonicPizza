@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'filter-modal',
     loadChildren: () => import('./pages/filter-modal/filter-modal.module').then( m => m.FilterModalPageModule)
   },
+  {
+    path: 'cart-modal',
+    loadChildren: () => import('./pages/cart-modal/cart-modal.module').then( m => m.CartModalPageModule)
+  },
 ];
 
 @NgModule({

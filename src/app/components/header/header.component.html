@@ -5,7 +5,7 @@
     </ion-buttons>
     <ion-title>{{ title }}</ion-title>
     <ion-buttons slot="end">
-      <ion-button #cartbtnmobile>
+      <ion-button #cartbtnmobile (click)="openCart()">
         <ion-icon slot="icon-only" name="cart"></ion-icon>
         <ion-badge>{{ cartCount }}</ion-badge>
       </ion-button>
@@ -75,7 +75,7 @@
   </ion-col>
   <!--Cart icon-->
   <ion-col size="3" class="ion-text-right">
-    <ion-button fill="clear" color="dark" #cartbtnweb>
+    <ion-button fill="clear" color="dark" #cartbtnweb (click)="openCart()">
       <ion-icon slot="icon-only" name="cart"></ion-icon>
       <ion-badge>{{ cartCount }}</ion-badge>
     </ion-button>
