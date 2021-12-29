@@ -17,6 +17,9 @@ export class HeaderComponent implements OnInit {
 
   public dropdown = false;
   public cartCount = 0;
+  public darkMode =
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches;
   constructor(
     private animationCtrl: AnimationController,
     private cartService: CartService,
@@ -30,6 +33,22 @@ export class HeaderComponent implements OnInit {
       }
       this.cartCount = value;
     });
+
+    this.toggleDarkmode(this.darkMode);
+
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    prefersDark.addEventListener('change', (e) => {
+      const dark = e.matches ? true : false;
+
+      if (this.darkMode != dark) {
+        this.darkMode = !this.darkMode;
+        this.toggleDarkmode(this.darkMode);
+      }
+    });
+  }
+
+  toggleDarkmode(enable) {
+    document.body.classList.toggle('dark', enable);
   }
 
   hideDropdown(event) {
