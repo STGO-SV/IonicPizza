@@ -1,1 +1,35 @@
-<ion-content> </ion-content>
+<ion-content class="ion-text-center">
+  <ion-text color="dark" class="ion-hide-md-down">
+    <h1>Choose your products</h1>
+  </ion-text>
+
+  <ion-grid fixed>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12" size-sm="6" size-md="4" *ngFor="let p of products">
+        <ion-card>
+          <div
+            tappable
+            [routerLink]="['/products', p.id]"
+            class="product-image"
+          >
+            <img [src]="p.img" alt="" />
+          </div>
+          <ion-card-content tappable [routerLink]="['/products', p.id]">
+            <ion-label color="dark">
+              <b>{{p.title}}</b>
+              <p>{{p.price | currency: 'USD'}}</p>
+            </ion-label>
+          </ion-card-content>
+          <ion-button
+            class="ion-no-margin"
+            expand="full"
+            color="primary"
+            (click)="addProduct(p)"
+          >
+            <ion-icon slot="icon-only" name="cart-outline"></ion-icon>
+          </ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
