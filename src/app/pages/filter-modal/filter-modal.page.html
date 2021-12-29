@@ -1,0 +1,16 @@
+<ion-content class="ion-padding">
+  <ion-text color="dark">
+    <h2>Filter</h2>
+  </ion-text>
+  <ion-item button detail="false" (click)="selectCategory(null)">
+    All
+  </ion-item>
+  <ion-item
+    button
+    detail="false"
+    *ngFor="let cat of categories"
+    (click)="selectCategory(cat)"
+  >
+    {{cat.title}}
+  </ion-item>
+</ion-content>
