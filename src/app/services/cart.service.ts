@@ -18,7 +18,7 @@ export class CartService {
   private cartItems = new BehaviorSubject(0);
   constructor() {}
 
-  addProducts(product: Product) {
+  addProduct(product: Product) {
     if (!this.cart[product.id]) {
       this.cart[product.id] = {
         amount: 1,

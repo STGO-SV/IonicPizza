@@ -35,7 +35,7 @@ export class ProductsPage implements OnInit {
   }
 
   addProduct(product: Product) {
-    this.cartService.addProducts(product);
+    this.cartService.addProduct(product);
   }
 
   async openFilter() {
