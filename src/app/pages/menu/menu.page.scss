@@ -5,3 +5,9 @@
     color: var(--ion-color-primary);
   }
 }
+
+ion-accordion ion-list[slot="content"] {
+  ion-item {
+    --padding-start: 72px;
+  }
+}
