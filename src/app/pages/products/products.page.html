@@ -17,7 +17,7 @@
           <ion-card-content tappable [routerLink]="['/products', p.id]">
             <ion-label color="dark">
               <b>{{p.title}}</b>
-              <p>{{p.price | currency: 'CLP'}}</p>
+              <p>{{p.price | currency: 'CLP':'symbol':'1.0-4'}}</p>
             </ion-label>
           </ion-card-content>
           <ion-button

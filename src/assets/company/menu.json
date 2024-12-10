@@ -1,7 +1,7 @@
 [
     {
       "id": "619a34d077cd980ebdfb73ad",
-      "price": "23.85",
+      "price": "23850",
       "img": "./assets/company/imgs/1.jpg",
       "title": "Salame",
       "desc": "Salame italiano importado directo desde Italia.",
@@ -9,7 +9,7 @@
     },
     {
       "id": "619a34d059ef2becf48520b6",
-      "price": "15.31",
+      "price": "15390",
       "img": "./assets/company/imgs/2.jpg",
       "title": "Salame especial",
       "desc": "Salame condimentado con especias para un toque extra de sabor.",
@@ -17,7 +17,7 @@
     },
     {
       "id": "619a34d01d512e9f0c17b8fd",
-      "price": "16.49",
+      "price": "16490",
       "img": "./assets/company/imgs/3.jpg",
       "title": "Atún",
       "desc": "Deliciosa pizza con trozos de atún fresco.",
@@ -25,7 +25,7 @@
     },
     {
       "id": "619a34d05e73902077cb7b42",
-      "price": "19.46",
+      "price": "19490",
       "img": "./assets/company/imgs/4.jpg",
       "title": "Margarita",
       "desc": "La pizza clásica con ingredientes frescos de la máxima calidad.",
@@ -33,7 +33,7 @@
     },
     {
       "id": "619a34d050809af22d7c9970",
-      "price": "21.45",
+      "price": "21490",
       "img": "./assets/company/imgs/5.jpg",
       "title": "Parmesano y jamón",
       "desc": "La combinación perfecta de queso y jamón.",
@@ -41,7 +41,7 @@
     },
     {
       "id": "619a34d0fdc62561315dacd0",
-      "price": "23.66",
+      "price": "23690",
       "img": "./assets/company/imgs/6.jpg",
       "title": "Vegetariana",
       "desc": "Llena de sabores frescos de estación (consulte para más detalles)",
@@ -49,7 +49,7 @@
     },
     {
       "id": "619a34d0657fe8db89dffc17",
-      "price": "13.45",
+      "price": "13490",
       "img": "./assets/company/imgs/7.jpg",
       "title": "Bombay",
       "desc": "Sabores exóticos que te transportan a la India.",
@@ -57,7 +57,7 @@
     },
     {
       "id": "619a34d0e70f84a964797304",
-      "price": "23.51",
+      "price": "23590",
       "img": "./assets/company/imgs/8.jpg",
       "title": "Focachia",
       "desc": "El sueño de los amantes de la cebolla.",
@@ -65,7 +65,7 @@
     },
     {
       "id": "619a34d05d44a35aba08334b",
-      "price": "11.66",
+      "price": "11690",
       "img": "./assets/company/imgs/9.jpg",
       "title": "Cheesy crust",
       "desc": "cillum consequat proident officia irure ipsum ullamco qui",
@@ -73,7 +73,7 @@
     },
     {
       "id": "619a34d023e42af522bd82c3",
-      "price": "20.07",
+      "price": "20090",
       "img": "./assets/company/imgs/10.jpg",
       "title": "Cheesy small",
       "desc": "irure veniam aliqua consequat cupidatat occaecat aliquip commodo",
@@ -81,7 +81,7 @@
     },
     {
       "id": "619a34d0e4e6991b9c966d16",
-      "price": "17.23",
+      "price": "17290",
       "img": "./assets/company/imgs/11.jpg",
       "title": "Borde de queso",
       "desc": "Deliciosa pizza tradicional con borde rellenode queso.",
@@ -89,7 +89,7 @@
     },
     {
       "id": "619a34d014fd6d10c1f05675",
-      "price": "24.06",
+      "price": "24090",
       "img": "./assets/company/imgs/12.jpg",
       "title": "Pequeña con queso",
       "desc": "Perfecta para los amantes del queso en porciones pequeñas.",
@@ -97,7 +97,7 @@
     },
     {
       "id": "619a34d04c36c1cf506f197a",
-      "price": "12.14",
+      "price": "12190",
       "img": "./assets/company/imgs/13.jpg",
       "title": "Traditional",
       "desc": "La pizza de tu infancia.",
@@ -105,7 +105,7 @@
     },
     {
       "id": "619a34d0b3b433a409a5c32a",
-      "price": "16.18",
+      "price": "16190",
       "img": "./assets/company/imgs/14.jpg",
       "title": "Masa delgada",
       "desc": "Prueba nuestra masa de especialidad horneada a la piedra.",
@@ -113,7 +113,7 @@
     },
     {
       "id": "619a34d0fdaf1e1e924e4418",
-      "price": "17.68",
+      "price": "17690",
       "img": "./assets/company/imgs/15.jpg",
       "title": "Individual",
       "desc": "Tamaño perfecto para un solo comensal.",
@@ -121,7 +121,7 @@
     },
     {
       "id": "619a34d09044a37c6beb8b4d",
-      "price": "20.95",
+      "price": "20990",
       "img": "./assets/company/imgs/16.jpg",
       "title": "Doble placer",
       "desc": "La combinación perfecta de sabor.",
@@ -129,7 +129,7 @@
     },
     {
       "id": "619a34d0d827e65e15cbd288",
-      "price": "20.93",
+      "price": "20990",
       "img": "./assets/company/imgs/17.jpg",
       "title": "Carnívora",
       "desc": "Cortes seleccionados, la elección de los amantes de la carne.",
@@ -137,7 +137,7 @@
     },
     {
       "id": "619a34d072e4854cacc5fb0a",
-      "price": "18.64",
+      "price": "18690",
       "img": "./assets/company/imgs/18.jpg",
       "title": "Olive Garden",
       "desc": "Sabores frescos y naturales en cada bocado.",
@@ -145,7 +145,7 @@
     },
     {
       "id": "619a34d01a62a71adcf47605",
-      "price": "17.41",
+      "price": "17490",
       "img": "./assets/company/imgs/19.jpg",
       "title": "Hawaiana",
       "desc": "Combinación imcomparable de sabores tropicales. Sí, la pizza sí lleva piña.",
@@ -153,7 +153,7 @@
     },
     {
       "id": "619a34d055e3e5fb0f4a7897",
-      "price": "15.30",
+      "price": "15390",
       "img": "./assets/company/imgs/20.jpg",
       "title": "Pan de ajo",
       "desc": "Delicioso pan con toques de ajo fresco.",
@@ -161,7 +161,7 @@
     },
     {
       "id": "619a34d07e0af041c4ca26d8",
-      "price": "9.08",
+      "price": "9090",
       "img": "./assets/company/imgs/21.jpg",
       "title": "Tocino y queso",
       "desc": "nulla sunt nulla esse Lorem dolore elit consectetur",
@@ -169,7 +169,7 @@
     },
     {
       "id": "619a34d0a172ea8becb14652",
-      "price": "12.01",
+      "price": "12090",
       "img": "./assets/company/imgs/22.jpg",
       "title": "Rebanada",
       "desc": "Rebanada individual a de pizza a elección.",
@@ -177,7 +177,7 @@
     },
     {
       "id": "619a34d0613369acbc88459b",
-      "price": "20.06",
+      "price": "20090",
       "img": "./assets/company/imgs/23.jpg",
       "title": "Búfalo",
       "desc": "Sabores intensos y picantes inspirados en Buffalo.",
@@ -185,7 +185,7 @@
     },
     {
       "id": "619a34d0634c84d5a8886018",
-      "price": "16.67",
+      "price": "16690",
       "img": "./assets/company/imgs/24.jpg",
       "title": "Verde",
       "desc": "La frescura de los vegetales en cada bocado.",
@@ -193,7 +193,7 @@
     },
     {
       "id": "619a34d0421757e819e235cc",
-      "price": "9.76",
+      "price": "9790",
       "img": "./assets/company/imgs/25.jpg",
       "title": "Calzone",
       "desc": "Deliciosa masa rellena perfecta para compartir.",
@@ -201,7 +201,7 @@
     },
     {
       "id": "619a34d007c0b2dc77362a1a",
-      "price": "19.28",
+      "price": "19290",
       "img": "./assets/company/imgs/26.jpg",
       "title": "Frutal",
       "desc": "Una explosión de sabores dulces y tropicales.",
@@ -209,7 +209,7 @@
     },
     {
       "id": "619a34d0460fa15b94f1b86a",
-      "price": "16.97",
+      "price": "16990",
       "img": "./assets/company/imgs/27.jpg",
       "title": "Napolitana",
       "desc": "La receta italiana clásica que nunca pasa de moda.",
@@ -217,7 +217,7 @@
     },
     {
       "id": "619a34d04af4947d8c4de153",
-      "price": "15.33",
+      "price": "15390",
       "img": "./assets/company/imgs/28.jpg",
       "title": "Cena para dos",
       "desc": "Ideal para compartir con alguien especial.",
@@ -225,7 +225,7 @@
     },
     {
       "id": "619a34d08515fa25e36ed1f4",
-      "price": "24.54",
+      "price": "24590",
       "img": "./assets/company/imgs/29.jpg",
       "title": "Catering para eventos",
       "desc": "La mejor opción para reuniones y celebraciones.",
@@ -233,7 +233,7 @@
     },
     {
       "id": "619a34d046d8a7ef6ad75e21",
-      "price": "20.77",
+      "price": "20790",
       "img": "./assets/company/imgs/30.jpg",
       "title": "Combo completo",
       "desc": "Un paquete que lo tiene todo para disfrutar.",
@@ -241,7 +241,7 @@
     },
     {
       "id": "619a34d00d32bf0a10568626",
-      "price": "11.29",
+      "price": "11290",
       "img": "./assets/company/imgs/31.jpg",
       "title": "Alemana",
       "desc": "Selección de encurtidos tradicionales alemanes.",
@@ -249,7 +249,7 @@
     },
     {
       "id": "619a34d0f6176fd80c9d24f7",
-      "price": "22.37",
+      "price": "22390",
       "img": "./assets/company/imgs/32.jpg",
       "title": "Rúcula",
       "desc": "Una opción fresca y ligera con rúcula como protagonista.",
