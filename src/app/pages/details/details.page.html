@@ -2,7 +2,7 @@
   <ion-grid fixed>
     <ion-breadcrumbs>
       <ion-breadcrumb routerLink="/products" routerDirection="back">
-        Products
+        Productos
         <span slot="separator">
           <ion-icon name="chevron-forward"></ion-icon>
         </span>
@@ -27,12 +27,12 @@
       <ion-col size="12" size-lg="5">
         <ion-card class="add-card ion-text-center">
           <ion-card-header>
-            <ion-card-title>{{product.price | currency: 'USD'}}</ion-card-title>
+            <ion-card-title>{{product.price | currency: 'CLP'}}</ion-card-title>
           </ion-card-header>
           <ion-card-content>
             <ion-text color="medium">{{product.desc}}</ion-text>
             <ion-button expand="full" (click)="addToCart()">
-              Add to cart
+              Añadir al carrito
               <ion-icon slot="end" name="add"></ion-icon>
             </ion-button>
           </ion-card-content>

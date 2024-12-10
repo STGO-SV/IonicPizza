@@ -33,7 +33,7 @@ export class HeaderComponent implements OnInit {
       }
       this.cartCount = value;
     });
-
+    // para el  modo oscuro
     this.toggleDarkmode(this.darkMode);
 
     // const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');

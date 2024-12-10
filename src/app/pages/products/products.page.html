@@ -1,6 +1,6 @@
 <ion-content class="ion-text-center">
   <ion-text color="dark" class="ion-hide-md-down">
-    <h1>Choose your products</h1>
+    <h1>Elige tus productos</h1>
   </ion-text>
 
   <ion-grid fixed>
@@ -17,7 +17,7 @@
           <ion-card-content tappable [routerLink]="['/products', p.id]">
             <ion-label color="dark">
               <b>{{p.title}}</b>
-              <p>{{p.price | currency: 'USD'}}</p>
+              <p>{{p.price | currency: 'CLP'}}</p>
             </ion-label>
           </ion-card-content>
           <ion-button

@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "title":"Bestseller",
+        "title":"Más vendidas",
         "slug": "bestseller"
     },
     {
         "id": 2,
-        "title":"Special",
+        "title":"Especial",
         "slug": "special"
     },
     {
         "id": 3,
-        "title":"Vegetarian",
+        "title":"Vegetariana",
         "slug": "vegetarian"
     },
     {
         "id": 4,
-        "title":"For Kids",
+        "title":"Infantil",
         "slug": "for-kids"
     }
 ]

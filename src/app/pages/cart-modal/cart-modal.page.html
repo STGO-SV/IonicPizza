@@ -10,7 +10,7 @@
   </ion-list>
 
   <ion-text *ngIf="cart.length === 0" class="ion-text-center">
-    <h2>You cart is currently empty</h2>
+    <h2>Tu carrito está vacío</h2>
   </ion-text>
 </ion-content>
 
@@ -25,10 +25,10 @@
       *ngIf="cart.length === 0"
       (click)="dismiss()"
     >
-      <h3>Shop now</h3>
+      <h3>Comprar</h3>
     </ion-button>
     <ion-text *ngIf="cart.length > 0">
-      <h3>Total: {{cartSum | currency: 'USD'}}</h3>
+      <h3>Total: {{cartSum | currency: 'CLP'}}</h3>
     </ion-text>
   </ion-toolbar>
 </ion-footer>

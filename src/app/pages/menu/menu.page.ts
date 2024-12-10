@@ -11,26 +11,32 @@ import categoryData from '../../../assets/company/categories.json';
 export class MenuPage implements OnInit {
   public menuItems = [
     {
-      title: 'Home',
+      title: 'Inicio',
       icon: 'home',
       path: '/',
     },
     {
-      title: 'Products',
+      title: 'Productos',
       icon: 'list',
       path: '/products',
       children: categoryData,
     },
     {
-      title: 'About',
+      title: 'Acerca de',
       icon: 'information',
       path: '/about',
     },
   ];
 
-  public title = 'Home';
+  public title = 'Inicio';
   public categories = categoryData;
   constructor(private plt: Platform, private menuCtrl: MenuController) {}
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    const newWidth = event.target.innerWidth;
+    this.toggleMenu(newWidth);
+  }
 
   ngOnInit() {
     const headerHeight = isPlatform('ios') ? 44 : 56;
@@ -42,22 +48,15 @@ export class MenuPage implements OnInit {
     this.toggleMenu(width);
   }
 
-  setTitle(title: string) {
-    this.title = title;
-  }
-
-  @HostListener('window:resize', ['$event'])
-  onResize(event) {
-    const newWidth = event.target.innerWidth;
-
-    this.toggleMenu(newWidth);
-  }
-
   toggleMenu(width) {
     if (width > 768) {
       this.menuCtrl.enable(false, 'myMenu');
     } else {
       this.menuCtrl.enable(true, 'myMenu');
     }
+  }
+
+  setTitle(title: string) {
+    this.title = title;
   }
 }
